@@ -27,6 +27,6 @@ public class ParameterizedConstructor {
 		System.out.println(s4.name+" : "+s4.age);
 		
 	}
-
+    
 }
 
