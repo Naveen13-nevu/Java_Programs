@@ -18,8 +18,6 @@ public class reverseString {
         right--;
     }
     System.out.println(new String(ch));
-
-
    }
     
 }
