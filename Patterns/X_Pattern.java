@@ -5,8 +5,9 @@ public class X_Pattern {
             for(int j=1;j<=n;j++){
                 if(j==i||j==n-i+1){
                     System.out.print("*"+" ");
-                }
-                else{
+                } 
+                else
+                    {
                     System.out.print(" ");
                 }
             }
