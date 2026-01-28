@@ -1,26 +1,18 @@
- class move{
 
-    public void Zero(int []nums){
-        int index=0;
-        for(int num:nums){
-            if(num!=0){
-                nums[index++]=num;
-            }
-
-        }
-        while(index<nums.length){
-            nums[index++]=0;
-        }
-    
-    }
-}
 public class MoveZeroes {
     public static void main(String[] args) {
-     move M = new move();
-     int [] nums={1,2,0,6,0};
-     M.Zero(nums);
-     for(int n:nums){
-        System.out.print(n+" ");
-     }
+     
+        int nums []={0,1,0,3,12};
+        int result []=new int[nums.length];
+
+        int index=0;
+        for (int i=0;i<nums.length;i++) {
+            if (nums[i]!=0) {
+                result[index++]=nums[i];
+            }
+        }
+        for(int i=0;i<result.length;i++){
+            System.out.print(result[i]+" ");
+        }
     }
 }
