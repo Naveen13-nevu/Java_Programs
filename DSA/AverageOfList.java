@@ -10,7 +10,5 @@ public class AverageOfList {
         }
         double average = (double)sum/total;
         System.out.println(average);
-
-
     }
 }
