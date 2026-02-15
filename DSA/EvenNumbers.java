@@ -13,6 +13,5 @@ public class EvenNumbers {
         }
         System.out.println();
         System.out.println(count);
-
     }
 }
